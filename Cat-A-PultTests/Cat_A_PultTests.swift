@@ -23,12 +23,11 @@ class Cat_A_PultTests: XCTestCase {
     }
 
     func testStart_to_Levels() {
-        let fakeFrame =
-            CGRect(x: 0, y: 0, width: 50, height: 50)
-        let fakeUILabel = UILabel(frame:fakeFrame)
-        myViewController.Display = fakeUILabel
         myViewController.viewDidLoad()
-        XCTAssertEqual(fakeUILabel.text, "0.0")
+        
+        myButton.setTitle("Levels", for: UIControl.State.normal)
+        MenuView.goToLevels()
+        
     }
 
     func testPerformanceExample() {
