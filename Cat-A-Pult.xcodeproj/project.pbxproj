@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1640B0EC226E933D006682B8 /* GameLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1640B0EB226E933D006682B8 /* GameLevel.swift */; };
 		1C535212226E8827001178F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C535211226E8827001178F6 /* AppDelegate.swift */; };
 		1C535214226E8827001178F6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C535213226E8827001178F6 /* GameScene.sks */; };
 		1C535216226E8827001178F6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C535215226E8827001178F6 /* Actions.sks */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1640B0EB226E933D006682B8 /* GameLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevel.swift; sourceTree = "<group>"; };
 		1C53520E226E8827001178F6 /* Cat-A-Pult.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cat-A-Pult.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C535211226E8827001178F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C535213226E8827001178F6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				1C535247226E8FB1001178F6 /* LevelsView.swift */,
 				1C535249226E8FD1001178F6 /* OptionsView.swift */,
 				1C53524B226E8FE4001178F6 /* MenuView.swift */,
+				1640B0EB226E933D006682B8 /* GameLevel.swift */,
 			);
 			path = "Cat-A-Pult";
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				1C535218226E8827001178F6 /* GameScene.swift in Sources */,
 				1C53521A226E8827001178F6 /* GameViewController.swift in Sources */,
 				1C535246226E88BF001178F6 /* CatModel.swift in Sources */,
+				1640B0EC226E933D006682B8 /* GameLevel.swift in Sources */,
 				1C53524A226E8FD1001178F6 /* OptionsView.swift in Sources */,
 				1C535248226E8FB1001178F6 /* LevelsView.swift in Sources */,
 				1C535212226E8827001178F6 /* AppDelegate.swift in Sources */,
