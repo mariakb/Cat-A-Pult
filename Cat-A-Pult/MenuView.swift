@@ -7,3 +7,22 @@
 //
 
 import Foundation
+
+
+/*
+ switch (options){
+ case start:
+ 
+ break;
+ case levels:
+ 
+ break;
+ 
+ case options:
+ 
+ break;
+ default:
+ break;
+ }
+ 
+ */

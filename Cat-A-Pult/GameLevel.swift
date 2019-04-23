@@ -21,6 +21,9 @@ class GameLevel : NSObject {
     func youWin(){
         
     }
+    func setStatus(){
+        
+    }
     
     
 }
