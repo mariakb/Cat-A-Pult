@@ -16,7 +16,7 @@ class GameLevel : NSObject {
         //do sth
     }
     func updateScore(){}
-    
+        
     
     func youWin(){
         
