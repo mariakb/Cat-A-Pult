@@ -13,4 +13,20 @@ import GameplayKit
 
 class MenuView: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    @IBAction func startGame(){
+//        performSegue(withIdentifier: lvlView, sender: self)
+    }
+    @IBAction func goToOptions (){
+        performSegue(withIdentifier: OptionsView, sender: self)
+    }
+    @IBAction func goToLevels () {
+        performSegue(withIdentifier: LevelsView, sender: self)
+    }
+    @IBAction func goToCredits(){
+        
+    }
 }
