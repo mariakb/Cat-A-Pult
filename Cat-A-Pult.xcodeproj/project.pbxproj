@@ -17,6 +17,10 @@
 		1C535222226E8828001178F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C535220226E8828001178F6 /* LaunchScreen.storyboard */; };
 		1C53522D226E8828001178F6 /* Cat_A_PultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53522C226E8828001178F6 /* Cat_A_PultTests.swift */; };
 		1C535238226E8828001178F6 /* Cat_A_PultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C535237226E8828001178F6 /* Cat_A_PultUITests.swift */; };
+		1C535246226E88BF001178F6 /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C535245226E88BF001178F6 /* CatModel.swift */; };
+		1C535248226E8FB1001178F6 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C535247226E8FB1001178F6 /* LevelsView.swift */; };
+		1C53524A226E8FD1001178F6 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C535249226E8FD1001178F6 /* OptionsView.swift */; };
+		1C53524C226E8FE4001178F6 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C53524B226E8FE4001178F6 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		1C535233226E8828001178F6 /* Cat-A-PultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat-A-PultUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C535237226E8828001178F6 /* Cat_A_PultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_A_PultUITests.swift; sourceTree = "<group>"; };
 		1C535239226E8828001178F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C535245226E88BF001178F6 /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
+		1C535247226E8FB1001178F6 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		1C535249226E8FD1001178F6 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		1C53524B226E8FE4001178F6 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 				1C53521E226E8828001178F6 /* Assets.xcassets */,
 				1C535220226E8828001178F6 /* LaunchScreen.storyboard */,
 				1C535223226E8828001178F6 /* Info.plist */,
+				1C535245226E88BF001178F6 /* CatModel.swift */,
+				1C535247226E8FB1001178F6 /* LevelsView.swift */,
+				1C535249226E8FD1001178F6 /* OptionsView.swift */,
+				1C53524B226E8FE4001178F6 /* MenuView.swift */,
 			);
 			path = "Cat-A-Pult";
 			sourceTree = "<group>";
@@ -267,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C53524C226E8FE4001178F6 /* MenuView.swift in Sources */,
 				1C535218226E8827001178F6 /* GameScene.swift in Sources */,
 				1C53521A226E8827001178F6 /* GameViewController.swift in Sources */,
+				1C535246226E88BF001178F6 /* CatModel.swift in Sources */,
+				1C53524A226E8FD1001178F6 /* OptionsView.swift in Sources */,
+				1C535248226E8FB1001178F6 /* LevelsView.swift in Sources */,
 				1C535212226E8827001178F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

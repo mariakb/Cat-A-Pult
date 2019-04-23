@@ -11,6 +11,9 @@ import XCTest
 
 class Cat_A_PultTests: XCTestCase {
 
+    var myViewController = UIViewController()
+    var myButton = UIButton()
+    
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -19,9 +22,13 @@ class Cat_A_PultTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testStart_to_Levels() {
+        let fakeFrame =
+            CGRect(x: 0, y: 0, width: 50, height: 50)
+        let fakeUILabel = UILabel(frame:fakeFrame)
+        myViewController.Display = fakeUILabel
+        myViewController.viewDidLoad()
+        XCTAssertEqual(fakeUILabel.text, "0.0")
     }
 
     func testPerformanceExample() {
