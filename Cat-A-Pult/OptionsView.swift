@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+import SpriteKit
+import GameplayKit
+
+class OptionsView: UIViewController {
+}

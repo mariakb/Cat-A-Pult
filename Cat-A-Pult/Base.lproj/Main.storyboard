@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Options View-->
         <scene sceneID="2g1-Rg-0gO">
             <objects>
-                <viewController id="ly0-NU-PkC" sceneMemberID="viewController">
+                <viewController id="ly0-NU-PkC" customClass="OptionsView" customModule="Cat_A_Pult" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GQD-fO-51t">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,11 +38,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="86" y="-444"/>
         </scene>
-        <!--View Controller-->
+        <!--Levels View-->
         <scene sceneID="GPP-1o-YW7">
             <objects>
-                <viewController id="2Jh-9T-1Hq" sceneMemberID="viewController">
+                <viewController id="2Jh-9T-1Hq" customClass="LevelsView" customModule="Cat_A_Pult" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xhc-Oc-Mrg">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="799" y="-631"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu View-->
         <scene sceneID="MBQ-FN-Tku">
             <objects>
-                <viewController id="Skx-Cr-hBW" sceneMemberID="viewController">
+                <viewController id="Skx-Cr-hBW" customClass="MenuView" customModule="Cat_A_Pult" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rr1-eo-Ahf">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
